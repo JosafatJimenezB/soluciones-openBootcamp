@@ -8,7 +8,8 @@ public class cocheEjercicio {
 
         miCoche.agregarPuerta();
         miCoche.agregarPuerta();
-        System.out.println(miCoche.puertas);
+        miCoche.agregarPuerta();
+        System.out.println("El coche tiene: " + miCoche.puertas + " puertas");
     }
 
 }
